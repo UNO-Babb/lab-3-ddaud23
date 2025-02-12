@@ -16,8 +16,10 @@ def main():
   start = time.time()
   #calculate pi using the approximation technique
   #Loop until the level of percision is reached
+  myPi = 0
 
-  end = time.time()
+  while 1 == 1:
+   end = time.time()
 
   elapsedTime = end - start
   print(elapsedTime)
